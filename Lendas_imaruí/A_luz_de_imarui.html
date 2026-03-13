@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-   <title>projeto lendas</title>
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-   <link rel="stylesheet" href="../principal/style-lendas.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A luz de Imarui</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../principal/style-lendas.css">
 </head>
-
 <body>
+
    <header>
         <div class="parte-de-cima-menu">
             <div class="interface">
@@ -611,34 +613,34 @@
         </div>
     </header>
 
+
+
+
     <div class="texto">
         <div class="imagem">
-            <img src="demonio_no_baile_de_quaresma.webp" alt="demonio na quaresma">
-
-            <audio id="meuAudio" src="Demonio_baile_quaresma.mp3"></audio>
-
-                <div class="player-container">
-                    <button id="playPauseBtn" class="player-btn"></button>
-                    <div class="progress-bar-container">
-                        <div id="progressBar" class="progress-bar"></div>
-                    </div>
-                </div>
-
+            <img src="A_luz_de_imarui.jpg" alt="a luz de imarui">
         </div>
 
         <div class="textoo">
 
-        <h1>O demonio do baile de quaresma</h1>
+        <h1>A luz de Imaruí</h1>
 
-        <p>É contado que há algumas décadas, o período que antecede a Páscoa – chamado de Quaresma – era seguido à risca pelos católicos em geral. A Igreja pedia que não fizessem festas nem casamentos, porém um conhecido clube de Imbituba, hoje permanentemente fechado, resolveu não acatar a tradição.
-
-            Era uma noite de lua cheia, quando num desses bailes – realizado apesar das críticas dos padres – apareceu um rapaz bonito e desconhecido. Moço de atitude e com chapéu elegante, ele tirou algumas mulheres para dançar, deu voltas pelo salão, mas repararam numa estranheza: ao olharem seus pés, viram que canelas de bode entravam-lhe os sapatos.
-            
-            Segundo a lenda, ao ser percebido, o moço logo adentrou no banheiro e retirou as calças, revelando as pernas de bode e dois chifres abaixo do chapéu. Quando foram atrás, no banheiro, já tinha desaparecido. Só restou um forte odor de enxofre por todo o ambiente.
-            
-            </p>
+        <p>A história acontece na cidade de Imaruí, em Santa Catarina, mais precisamente no bairro Rio D’Una. Neste local morava uma família cujo provedor era João e a cuidadora do lar, Maria.
+Maria costumava visitar uma senhora de aproximadamente 70 anos, chamada Ana, que vivia sozinha em uma casa cercada por várias árvores nativas. Em uma de suas visitas rotineiras, Maria viu um clarão muito forte, uma luz que vinha de dentro da mata. Assustada, perguntou ao marido se ele também conseguia ver, mas João não enxergava nada.
+— Tá vendo aquela luz lá em cima, João?
+ — Não, Maria, não estou vendo.
+ — Olha lá, João, uma luz bem grande, uma luz em forma de bola.
+ — Não estou vendo. Isso é coisa tua, estás vendo coisa demais.
+Maria insistia que via aquela luz forte, mas nada convencia João. Frustrada, perguntou então à senhora Ana se ela conseguia enxergar o clarão entre as árvores. A idosa também não via nada, embora relatasse perceber “coisas estranhas” pela região, já que morava sozinha. O clarão, no entanto, parecia ser visível apenas para Maria.
+Com o passar do tempo, novas famílias chegaram ao bairro. Uma delas era composta por Pedro, sua esposa Marlene e a filha Camila, de aproximadamente cinco anos. Certo dia, ao passar pela mesma estradinha por onde Maria caminhava, a menina exclamou:
+— Oh, mãe, vocês estão vendo aquela luz lá?
+Seus pais responderam:
+— Não, não estamos vendo, filha.
+Assim como Maria, Camila também dizia enxergar a misteriosa “luz forte no meio do mato”. Muitos moradores acreditavam que naquela região havia ouro enterrado e que o clarão seria justamente a marca desse tesouro escondido. Tentativas de escavação foram feitas, mas nada foi encontrado. Entre dúvidas e mistérios, o fato é que essas visões atravessaram gerações, mantendo viva a crença em tesouros guardados pela natureza e segredos enterrados na cidade de Imaruí.
+</p>
         
-        <p class="referencia" >Material extraido de ALEXANDRE,Eduardo.calafrio real. Disponivel em:https://calafrioreal.blogspot.com/2015/04/especial-quaresma-o-dia-que-o-diabo.html?m=1 Acesso em: 05 set 2024</p>
+        <p class="referencia" >RIBEIRO, Jucemar Ferreira. Relato oral sobre a lenda da luz no bairro Rio D’Una, Imaruí (SC). Entrevista concedida a Sabrina Duarte Rosa. Imaruí (SC), 2025. Texto adaptado.
+</p>
         
     </div>
     </div>
@@ -685,32 +687,6 @@
             setupDropdown('.menu-curtas', '.droop');
         });
     </script>
-
-<script>
-    // Seleciona os elementos do DOM
-    const audioPlayer = document.getElementById('meuAudio');
-    const playPauseBtn = document.getElementById('playPauseBtn');
-    const progressBar = document.getElementById('progressBar');
-    
-    // Event Listener para o botão Play/Pause
-    playPauseBtn.addEventListener('click', () => {
-        if (audioPlayer.paused) {
-            audioPlayer.play();
-            playPauseBtn.classList.add('is-playing'); // Adiciona a classe CSS para mudar o ícone
-        } else {
-            audioPlayer.pause();
-            playPauseBtn.classList.remove('is-playing'); // Remove a classe CSS para mudar o ícone
-        }
-    });
-    
-    // Event Listener para atualizar a barra de progresso em tempo real
-    audioPlayer.addEventListener('timeupdate', () => {
-        const progress = (audioPlayer.currentTime / audioPlayer.duration) * 100;
-        progressBar.style.width = progress + '%';
-    });
-</script>
-
  </body>
  
- 
- </html>
+</html>
