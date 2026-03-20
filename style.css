@@ -118,6 +118,34 @@
     position: relative;
 }
 
+.menu-das-lendas .sub-menu{
+    background-color: rgba(49, 49, 49, 0.95);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-das-lendas p{
+    font-size: 35px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.menu-das-lendas button{
+    color: #fff;
+    background-color: rgba(49, 49, 49, 0.95);
+    font-size: 20px;
+    border: none;
+    padding-left: 20px;
+    transition: 2.ms;
+    cursor: pointer;
+}
+
+.menu-das-lendas button:hover{
+    color: #eeff00;
+    font-size: 23px;
+}
+
 .menu-das-lendas .droop, .menu-curtas .droop {
     position: absolute;
     top: 100%;
@@ -143,6 +171,14 @@
     max-height: 80vh; 
     overflow-y: auto; 
     padding: 15px;
+}
+
+.card-lenda {
+    display: none;
+}
+
+.apresentar{
+    display: block;
 }
 
 

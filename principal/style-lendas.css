@@ -32,7 +32,7 @@
     margin-right: 20px;
 }
 
-.interface .redes-sociais button {
+.interface .redes-sociais a {
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -40,7 +40,7 @@
     color: #000;
 }
 
-.interface .redes-sociais button:hover {
+.interface .redes-sociais a:hover {
     color: rgb(0, 0, 90);
 }
 

@@ -9,7 +9,7 @@
 
 </head>
 <body>
-    <header>
+     <header>
         <div class="parte-de-cima-menu">
             <div class="interface">
                 <div class="logotipos">
@@ -40,8 +40,35 @@
                         <li><a href="index.html" class="opcoes">INÍCIO</a></li>
                         <li class="menu-das-lendas"><a href="#" class="opcoes">LENDAS <i class="bi bi-caret-down-fill"></i> </a>
                             <div class="droop">
+
+                                <div class="sub-menu">
+
+                                    <p>Filtro: </p>
+
+                                    <ul>
+
+                                        <li><button onclick="FiltarCidade('Todos')">Todos</button></li>
+
+                                        <li><button onclick="FiltarCidade('Garopaba')">Garopaba</button></li>
+
+                                        <li><button onclick="FiltarCidade('Imarui')">Imarui</button> </li>
+
+                                        <li><button onclick="FiltarCidade('Imbituba')">Imbituba</button></li>
+
+                                        <li><button onclick="FiltarCidade('Laguna')">Laguna</button></li>
+
+                                        <li><button onclick="FiltarCidade('Paulo-Lopes')">Paulo Lopes</button></li>
+
+                                        <li><button onclick="FiltarCidade('pescaria-Brava')">Pescaria Brava</button></li>
+
+                                    </ul>
+
+                                </div>
+
+                            <section class="lendas">
+
                                 <div class="lendas-hrf1">
-                                    <div class="card-lenda">
+                                    <div id="Imbituba" class="card-lenda apresentar">>
                                     <div class="a coisa de fogo">
                                         <img src="Lendas_Imbituba/a_coisa_de_fogo.jpg" alt="coisa de fogo">
                                         <span class="texto-sobreposto"><a href="Lendas_Imbituba/a-coisa-de-fogo.html" class="link-lendas"> A COISA DE FOGO </a></span>
@@ -49,179 +76,52 @@
                                     </div>
  
  
-                                    <div class="card-lenda">
-                                    <div class="a mulher que chora">
-                                        <img src="Lendas_Imbituba/a_mulher_que_chora.jpg" alt=" a mulher uqe chora">
-                                        <span class="texto-sobreposto"><a href="Lendas_Imbituba/a-mulher-que-chora.html" class="link-lendas"> A MULHER QUE CHORA </a></span>
-                                    </div>
-                                    </div>
- 
- 
-                                    <div class="card-lenda">
-                                    <div class="o papo roxo">
-                                            <img src="Lendas_Imbituba/o_papo_roxo.jpg" alt="o papo rooxo">
-                                            <span class="texto-sobreposto"><a href="Lendas_Imbituba/o-papo-roxo.html" class="link-lendas"> O PAPO ROXO </a></span>
-                                    </div>
-                                    </div>
-                               
-                                </div>
-                                    <div class="lendas-hrf1">
-                                    <div class="card-lenda">
-                                    <div class="o lobisomem de paulo lopes">
-                                            <img src="Lendas_PauloLopes/o_lobisomem_de_paulo_lopes.jpg" alt="o lobisomem">
-                                            <span class="texto-sobreposto"><a href="Lendas_PauloLopes/o-lobisomem-de-paulo-lopez.html" class="link-lendas"> O LOBISOMEM DE PAULO LOPES (INFO23) </a></span>
-                                    </div>
-                                    </div>
-                                    <div class="card-lenda">
-                                    <div class="As Gêmeas de Paulo Lopes">
-                                            <img src="Lendas_PauloLopes/as_gemeas_de_paulo_lopes.jpg" alt=" As Gêmeas de Paulo Lopes">
-                                            <span class="texto-sobreposto"><a href="Lendas_PauloLopes/as-gemeas-de-paulo-lopes.html" class="link-lendas">AS GÊMEAS DE PAULO LOPES </a></span>
-                                    </div>
-                                    </div>
-                                    <div class="card-lenda">
-                                    <div class="O sotão">
-                                            <img src="Lendas_Imbituba/o_sotao.jpg" alt=" O sotão">
-                                            <span class="texto-sobreposto"><a href="Lendas_Imbituba/o-sotao.html" class="link-lendas"> O SOTÃO </a></span>
-                                    </div>
-                                    </div>
-                                   
-                                </div>
-                                    <div class="lendas-hrf1">
-                                    <div class="card-lenda">
-                                    <div class="O demônio no baile de quaresma">
-                                            <img src="Lendas_Imbituba/demonio_no_baile_de_quaresma.webp" alt="O demônio no baile de quaresma">
-                                            <span class="texto-sobreposto"><a href="Lendas_Imbituba/o-demonio-do-baile.html" class="link-lendas"> O DEMÔNIO NO BAILE DE QUARESMA </a></span>
-                                    </div>
-                                    </div>
-                                    <div class="card-lenda">
-                                    <div class="O último casamento no Hotel de Itapirubá">
-                                            <img src="Lendas_Imbituba/o_ultimo_casamento_no_hotel_de_itapiruba.png" alt="O último casamento no Hotel de Itapirubá">
-                                            <span class="texto-sobreposto"><a href="Lendas_Imbituba/o-ultimo-casamento-hotel-itapiruba.html" class="link-lendas"> O ÚLTIMO CASAMENTO NO HOTEL ITAPIRUBÁ </a></span>
-                                    </div>
-                                </div>
-                                    <div class="card-lenda">
-                                    <div class="A lenda do cabeleira">
-                                            <img src="Lendas_Imbituba/a_lenda_do_cabeleira.jpg" alt="A lenda do cabeleira">
-                                            <span class="texto-sobreposto"><a href="Lendas_Imbituba/A-lenda-do-cabeleira.html"  class="link-lendas"> O LENDA DO CABELEIRA </a></span>
-                                    </div>
-                                    </div>
-                              
-                                </div>
-                                    <div class="lendas-hrf1">
-                                    <div class="card-lenda">
-                                    <div class="A Mulher de Branco">
-                                        <img src="Lendas_Garopaba/a_mulher_de_branco.jpg" alt="A Mulher de Branco">
-                                        <span class="texto-sobreposto"><a href="Lendas_Garopaba/A-mulher-de-branco.html" class="link-lendas"> A MULHER DE BRANCO </a></span>
-                                </div>
-                                </div>
-                                <div class="card-lenda">
-                                <div class="A lenda da Pedra Branca">
-                                        <img src="Lendas_Garopaba/a_pedra_branca.jpg" alt="A lenda da Pedra Branca">
-                                        <span class="texto-sobreposto"><a href="Lendas_Garopaba/A-lenda-da-pedra-branca.html" class="link-lendas"> A LENDA DA PEDRA BRANCA </a></span>
-                                </div>
-                                </div>
-                                <div class="card-lenda">
-                                <div class="O Monstro Roncador">
-                                        <img src="Lendas_Garopaba/o-monstro-do-roncador(1).jpg" alt="O Monstro Roncador">
-                                        <span class="texto-sobreposto"><a href="Lendas_Garopaba/o-monstro-do-roncador.html" class="link-lendas"> O MONSTRO RONCADOR </a></span>
-                                </div>
-                                </div>
- 
- 
-                                </div>
-                                    <div class="lendas-hrf1">
-                            <div class="card-lenda">
-                            <div class="O Caneludo do Casqueiro">
-                                <img src="Lendas_Garopaba/caneludo_casqueiro.jpg" alt="O Caneludo do Casqueiro">
-                                <span class="texto-sobreposto"><a href="Lendas_Garopaba/o-caneludo-casqueiro.html" class="link-lendas"> O CANELUDO CASQUEIRO </a></span>
-                            </div>
-                            </div>
- 
- 
-                            <div class="card-lenda">
-                                       
-                                <div class="O olho gordo">
- 
- 
-                                    <img src="Lendas_PauloLopes/olho_gordo.png" alt="o olho gordo">
-                                    <span class="texto-sobreposto"> <a href="Lendas_PauloLopes/o-olho-gordo.html" class="link-lendas"> O OLHO GORDO  </a>  </span>
- 
- 
-                                </div>
- 
- 
-                            </div>
- 
- 
-                            <div class="card-lenda">
-                               
-                                <div class="O milho roubado">
- 
- 
-                                    <img src="Lendas_PauloLopes/o_milho_roubado.png" alt="o milho roubado">
-                                    <span class="texto-sobreposto"> <a href="Lendas_PauloLopes/o-milho-roubado.html" class="link-lendas"> O MILHO ROUBADO  </a>  </span>
- 
- 
-                                </div>
- 
- 
-                            </div>
-                                </div>
-                                    <div class="lendas-hrf1">
-                                        <div class="card-lenda">
-                                            <div class="A luz de imarui">
-                                                <img src="Lendas_imaruí/A_luz_de_imarui.jpg" alt="em breve">
-                                                <span class="texto-sobreposto"><a href="Lendas_imaruí/A_luz_de_imarui.html" class="link-lendas">A luz de Imaruí  </a> </span>
-                                            </div>
-                                        </div>
- 
- 
-                                        <div class="card-lenda">
-                                            <div class="A origem do nome pescaria braava">
-                                                <img src="Lendas_PescariaBrava/Brasão_do_município_de_Pescaria_Brava_(SC).png" alt="em breve">
-                                                <span class="texto-sobreposto"><a href="Lendas_PescariaBrava/Origem_do_Nome_Pescaria_Brava:_Histórias_e_Lendas_de_um_Povo_Guerreiro.html" class="link-lendas"> A origem do nome pescaria brava  </a> </span>
-                                            </div>
-                                        </div>
- 
- 
-                                        <div class="card-lenda">
-                                            <div class="a noiva de iro">
-                                                <img src="Lendas_Laguna/a_noiva_do_iro.png" alt="em breve">
-                                                <span class="texto-sobreposto"><a href="Lendas_Laguna/a_noiva_do_iro.html" class="link-lendas"> A noiva de iro  </a> </span>
-                                            </div>
-                                        </div>
-                                       
-                                </div>
-                                    <div class="lendas-hrf1">
+
                                     <div class="card-lenda">
                                         <div class="A crianca de ouro">
                                             <img src="Lendas_Laguna/a_crianca_de_ouro.png" alt="em breve">
                                             <span class="texto-sobreposto"><a href="Lendas_Laguna/familha_que_perdeu_o_filho_por_ouro.html" class="link-lendas">A familia que perdeu o filho por ouro  </a> </span>
                                         </div>
                                     </div>
- 
- 
-                                    <div class="card-lenda">
-                                        <div class="ouro">
-                                            <img src="Lendas_Laguna/barra_de_ouro_sujo.png" alt="em breve">
-                                            <span class="texto-sobreposto"><a href="Lendas_Laguna/o_ouro_de_sangue_da_reoublica_uliana.html" class="link-lendas"> O ouro de sangue  </a> </span>
+                                    
+                                      <div class="card-lenda">
+                                            <div class="fonte da carioca">
+                                                <img src="Lendas_Laguna/fonte_da_carioca.png" alt="em breve">
+                                                <span class="texto-sobreposto"><a href="Lendas_Laguna/fonte_da_carioca.html" class="link-lendas"> A fonte da carioca  </a> </span>
+                                            </div>
                                         </div>
-                                    </div>
  
- 
-                                    <div class="card-lenda">
-                                        <div class="fonte da carioca">
-                                            <img src="Lendas_Laguna/fonte_da_carioca.png" alt="em breve">
-                                            <span class="texto-sobreposto"><a href="Lendas_Laguna/fonte_da_carioca.html" class="link-lendas"> A fonte da carioca  </a> </span>
-                                        </div>
-                                    </div>
-                                   
+                               
                                 </div>
-                                    <div class="lendas-hrf1">
+
+                                <div class="lendas-hrf1">
+                                    <div class="card-lenda">
+                                        <div class="A lenda do cabeleira">
+                                                <img src="Lendas_Imbituba/a_lenda_do_cabeleira.jpg" alt="A lenda do cabeleira">
+                                                <span class="texto-sobreposto"><a href="Lendas_Imbituba/A-lenda-do-cabeleira.html"  class="link-lendas"> A LENDA DO CABELEIRA </a></span>
+                                        </div>
+                                    </div>
+
                                     <div class="card-lenda">
                                         <div class="museo">
-                                            <img src="Lendas_Laguna/museo_de_anita.png" alt="em breve">
-                                            <span class="texto-sobreposto"><a href="Lendas_Laguna/o_museu_prisao_de_escravos.html" class="link-lendas"> O museo prisao de escravos  </a> </span>
+                                            <img src="Lendas_Laguna/padre-do-farol.jpg" alt="em breve">
+                                            <span class="texto-sobreposto"><a href="Lendas_Laguna/O_Padre_do_Farol.html" class="link-lendas"> A lenda do padre do farol  </a> </span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="card-lenda">
+                                        <div class="A lenda da Pedra Branca">
+                                            <img src="Lendas_Garopaba/a_pedra_branca.jpg" alt="A lenda da Pedra Branca">
+                                            <span class="texto-sobreposto"><a href="Lendas_Garopaba/A-lenda-da-pedra-branca.html" class="link-lendas"> A LENDA DA PEDRA BRANCA </a></span>
+                                        </div>
+                                    </div>                                   
+                                </div>
+
+                                <div class="lendas-hrf1">
+                                    <div class="card-lenda">
+                                        <div class="A luz de imarui">
+                                            <img src="Lendas_imaruí/A_luz_de_imarui.jpg" alt="em breve">
+                                            <span class="texto-sobreposto"><a href="Lendas_imaruí/A_luz_de_imarui.html" class="link-lendas">A luz de Imaruí  </a> </span>
                                         </div>
                                     </div>
 
@@ -230,14 +130,52 @@
                                             <img src="Lendas_Laguna/mulher_no_volante" alt="em breve">
                                             <span class="texto-sobreposto"><a href="Lendas_Laguna/a_menina_no_volante.html" class="link-lendas"> A menina no volante  </a> </span>
                                         </div>
+                                    </div> 
+
+                                    <div class="card-lenda">
+                                        <div class="A Mulher de Branco">
+                                            <img src="Lendas_Garopaba/a_mulher_de_branco.jpg" alt="A Mulher de Branco">
+                                            <span class="texto-sobreposto"><a href="Lendas_Garopaba/A-mulher-de-branco.html" class="link-lendas"> A MULHER DE BRANCO </a></span>
+                                        </div>
                                     </div>
                                    
+                                </div>
+
+                                <div class="lendas-hrf1">
                                     <div class="card-lenda">
                                         <div class="museo">
                                             <img src="Lendas_Laguna/mulher-ferro.jpg" alt="em breve">
-                                            <span class="texto-sobreposto"><a href="Lendas_Laguna/a_mulher_pendurada_no_ferro.html" class="link-lendas"> mulher pendurada no ferro  </a> </span>
+                                            <span class="texto-sobreposto"><a href="Lendas_Laguna/a_mulher_pendurada_no_ferro.html" class="link-lendas"> A mulher pendurada no ferro  </a> </span>
                                         </div>
                                     </div>
+                                    
+                                    <div class="card-lenda">
+                                        <div class="a mulher que chora">
+                                            <img src="Lendas_Imbituba/a_mulher_que_chora.jpg" alt=" a mulher uqe chora">
+                                            <span class="texto-sobreposto"><a href="Lendas_Imbituba/a-mulher-que-chora.html" class="link-lendas"> A MULHER QUE CHORA </a></span>
+                                        </div>
+                                    </div>
+                                    
+                                     <div class="card-lenda">
+                                        <div class="a noiva de iro">
+                                            <img src="Lendas_Laguna/a_noiva_do_iro.png" alt="em breve">
+                                            <span class="texto-sobreposto"><a href="Lendas_Laguna/a_noiva_do_iro.html" class="link-lendas"> A noiva de iro  </a> </span>
+                                        </div>
+                                    </div>
+                                <div class="lendas-hrf1">
+                                    <div class="card-lenda">
+                                        <div class="A origem do nome pescaria braava">
+                                            <img src="Lendas_PescariaBrava/Brasão_do_município_de_Pescaria_Brava_(SC).png" alt="em breve">
+                                            <span class="texto-sobreposto"><a href="Lendas_PescariaBrava/Origem_do_Nome_Pescaria_Brava:_Histórias_e_Lendas_de_um_Povo_Guerreiro.html" class="link-lendas"> A origem do nome pescaria brava  </a> </span>
+                                        </div>
+                                    </div>
+ 
+                                    <div class="card-lenda">
+                                        <div class="As Gêmeas de Paulo Lopes">
+                                            <img src="Lendas_PauloLopes/as_gemeas_de_paulo_lopes.jpg" alt=" As Gêmeas de Paulo Lopes">
+                                            <span class="texto-sobreposto"><a href="Lendas_PauloLopes/as-gemeas-de-paulo-lopes.html" class="link-lendas">AS GÊMEAS DE PAULO LOPES </a></span>
+                                        </div>
+                                    </div>   
 
                                     <div class="card-lenda">
                                         <div class="museo">
@@ -245,7 +183,24 @@
                                             <span class="texto-sobreposto"><a href="Lendas_Laguna/A_Senhora_de_preto_no_cemitério.html" class="link-lendas"> A senhora do cemiterio  </a> </span>
                                         </div>
                                     </div>
+                                    
+                                    
+                                   
+                                 <div class="lendas-hrf1">
+                                    <div class="card-lenda">
+                                        <div class="O Caneludo do Casqueiro">
+                                            <img src="Lendas_Garopaba/caneludo_casqueiro.jpg" alt="O Caneludo do Casqueiro">
+                                            <span class="texto-sobreposto"><a href="Lendas_Garopaba/o-caneludo-casqueiro.html" class="link-lendas"> O CANELUDO CASQUEIRO </a></span>
+                                        </div>
+                                    </div>
 
+                                    <div class="card-lenda">
+                                        <div class="O demônio no baile de quaresma">
+                                            <img src="Lendas_Imbituba/demonio_no_baile_de_quaresma.webp" alt="O demônio no baile de quaresma">
+                                            <span class="texto-sobreposto"><a href="Lendas_Imbituba/o-demonio-do-baile.html" class="link-lendas"> O DEMÔNIO NO BAILE DE QUARESMA </a></span>
+                                        </div>
+                                    </div>
+                                
                                     <div class="card-lenda">
                                         <div class="museo">
                                             <img src="Lendas_Laguna/galo.jpeg" alt="em breve">
@@ -253,20 +208,93 @@
                                         </div>
                                     </div>
 
+
+                                <div class="lendas-hrf1">
                                     <div class="card-lenda">
-                                        <div class="museo">
-                                            <img src="Lendas_Laguna/padre-do-farol.jpg" alt="em breve">
-                                            <span class="texto-sobreposto"><a href="Lendas_Laguna/O_Padre_do_Farol.html" class="link-lendas"> o padre do farol  </a> </span>
+                                        <div class="o lobisomem de paulo lopes">
+                                            <img src="Lendas_PauloLopes/o_lobisomem_de_paulo_lopes.jpg" alt="o lobisomem">
+                                            <span class="texto-sobreposto"><a href="Lendas_PauloLopes/o-lobisomem-de-paulo-lopez.html" class="link-lendas"> O LOBISOMEM DE PAULO LOPES </a></span>
                                         </div>
                                     </div>
+
+                                    <div class="card-lenda">
+                                        <div class="O milho roubado">
+                                            <img src="Lendas_PauloLopes/o_milho_roubado.png" alt="o milho roubado">
+                                            <span class="texto-sobreposto"> <a href="Lendas_PauloLopes/o-milho-roubado.html" class="link-lendas"> O MILHO ROUBADO  </a>  </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-lenda">
+                                        <div class="O Monstro Roncador">
+                                            <img src="Lendas_Garopaba/o-monstro-do-roncador(1).jpg" alt="O Monstro Roncador">
+                                            <span class="texto-sobreposto"><a href="Lendas_Garopaba/o-monstro-do-roncador.html" class="link-lendas"> O MONSTRO RONCADOR </a></span>
+                                        </div>
+                                    </div>
+ 
+                                <div class="lendas-hrf1">
+                                    <div class="card-lenda">
+                                        <div class="museo">
+                                            <img src="Lendas_Laguna/museo_de_anita.png" alt="em breve">
+                                            <span class="texto-sobreposto"><a href="Lendas_Laguna/o_museu_prisao_de_escravos.html" class="link-lendas"> O museo prisao de escravos  </a> </span>
+                                        </div>
+                                    </div>
+                               
+ 
+                                    <div class="card-lenda">
+                                        <div class="O olho gordo"> 
+                                            <img src="Lendas_PauloLopes/olho_gordo.png" alt="o olho gordo">
+                                            <span class="texto-sobreposto"> <a href="Lendas_PauloLopes/o-olho-gordo.html" class="link-lendas"> O OLHO GORDO  </a>  </span>
+                                        </div>
+                                    </div>
+ 
+                                    <div class="card-lenda">
+                                        <div class="ouro">
+                                            <img src="Lendas_Laguna/barra_de_ouro_sujo.png" alt="em breve">
+                                            <span class="texto-sobreposto"><a href="Lendas_Laguna/o_ouro_de_sangue_da_reoublica_uliana.html" class="link-lendas"> O ouro de sangue  </a> </span>
+                                        </div>
+                                    </div>
+                                    
+ 
+                           
+                                </div>                               
+ 
+                                
+                                <div class="lendas-hrf1">
+                                    <div class="card-lenda">
+                                        <div class="o papo roxo">
+                                            <img src="Lendas_Imbituba/o_papo_roxo.jpg" alt="o papo rooxo">
+                                            <span class="texto-sobreposto"><a href="Lendas_Imbituba/o-papo-roxo.html" class="link-lendas"> O PAPO ROXO </a></span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="card-lenda">
+                                        <div class="O sotão">
+                                            <img src="Lendas_Imbituba/o_sotao.jpg" alt=" O sotão">
+                                            <span class="texto-sobreposto"><a href="Lendas_Imbituba/o-sotao.html" class="link-lendas"> O SOTÃO </a></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="card-lenda">
+                                        <div class="O último casamento no Hotel de Itapirubá">
+                                            <img src="Lendas_Imbituba/o_ultimo_casamento_no_hotel_de_itapiruba.png" alt="O último casamento no Hotel de Itapirubá">
+                                            <span class="texto-sobreposto"><a href="Lendas_Imbituba/o-ultimo-casamento-hotel-itapiruba.html" class="link-lendas"> O ÚLTIMO CASAMENTO NO HOTEL ITAPIRUBÁ </a></span>
+                                        </div>
+                                    </div>
+                                 
+
+                                    
+
+                                    
+
+                                    
 
                                 </div>
 
                                 
-                            </div>
-                        </li>
+                                </div>
+                                </li>
  
- 
+                            </section>
  
  
                         <li class="menu-curtas">
@@ -626,15 +654,15 @@
  
  
                         <li class="menu-de-sobre">
-                            <a href="sobre.html" class="opcoes">SOBRE  </a>
+                            <a href="principal/sobre.html" class="opcoes">SOBRE  </a>
                         </li>
                        
                         <li class="menu-referencias">
-                            <a href="referencias.html" class="opcoes">REFERÊNCIAS</a>
+                            <a href="principal/referencias.html" class="opcoes">REFERÊNCIAS</a>
                         </li>
  
                         <li class="menu-festival">
-                            <a href="festival-do-minuto.html" class="opcoes">FESTIVAL DO MINUTO</a>
+                            <a href="principal/festival-do-minuto.html" class="opcoes">FESTIVAL DO MINUTO</a>
                         </li>
 
 
@@ -703,7 +731,7 @@
                 <div class="text">
                 <p><b>Beatriz Soares Coelho - <span class="destaque">BOLSISTA</span></b></p>
 
-                    <p>Possui ensino-fundamental-primeiro-graupela crescer e conhecer(2022). Estudante do Instituto Federal de Santa Catarina no Curso técnico integrado a informática e bolsista de língua portuguesa e lietratura.</p>
+                    <p> Pesquisadora - Bolsista de língua portuguesa e literatura 2025. Possui ensino-fundamental-primeiro-grau pela crescer e conhecer(2022). Formada no Curso técnico integrado ao Ensino Médio em informática - IFSC-Garopaba. </p>
 
                 <a href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K1596762A8&tokenCaptchar=0cAFcWeA72jIHreinJvaaABBIlhIV4BKuDc7ylSGHYDvvB9jvIMmnSVHzROxwsHj0kx2OYXLSP_LU4QVY5NpcMBzQIh1rxTEY8o5VKfmt4uBCNfZq-CmRqVi_erZG9yy_moLXT_WSDQ2TYJ1QNchxOlU_2s9093-7mreAWlQDQpaOrxPqVxtnxxOuzwF5u5zVzwTeF8h5vFY1bVwcpe8XIAvlOTvEM-VNDe101a_0yYizgvL_j01iNENIsRk5rGlmQjtAgfLb4bbi94gTbxXAVTw-QrHH_1N0ji-cvu2D9IlgFR1YnP4ow63ZJNndWVjqiNZO7EpK0ms1FyjGjzEUZR68tsyvtTlXuYhvJX6X8n3IVMWJQhx9FUH7s6si9R_T311Qanl6PvliPXY6daQURf0Swc40xpYlXCckMHsbezY-z7NhhdLIKHVP9zPbO9Ap_a26-79BEA72uNVT9t6ESPqWTjZW9gSReWu_G68otFNCst_S0q4mrUrWDzt1T-A6XXkqkwHWoHGEHlC7ctJZoIcHAvDxrmN7YZ7aLdWPNwcKkoVp7vMMTCw2fZtLdTfEtuajONrlDU_0a2EP-O2cmQdJGsA3R0YpYGn9e9YWrTC_sSLAUBPVruUKqbV2QGvZngl48zgGwDqD-l4eWLYwdjCvzvAlfaJq9YSVroeEipnsG_S08MrgM-39N3bNQJA4bLuiINRX2lgD3MqVpP99vsojniu_FBunXf8M7io-B03ThS8HNABrr5BcDsiKRkkHs8xa-Qgl2omm20SWtTCC8qNgqY8qedz58NQ">CURICULO LATTES</a>
                 </div>
@@ -717,7 +745,7 @@
                 <div class="text">
                 <p><b>Beatriz da Rosa Gonçalves - <span class="destaque">BOLSISTA</span></b></p>
 
-                    <p>Possui ensino-fundamental-primeiro-graupela Escola de ensino básico Professor José Rodrigues Lopes(2023). Estudantedo Instituto Federal de Santa Catarina no curso técnico integrado a informática e bolsista de língua portuguesa e literatura.</p>
+                    <p>Possui ensino-fundamental-primeiro-grau pela Escola de ensino básico Professor José Rodrigues Lopes(2023). Estudantedo Instituto Federal de Santa Catarina no curso técnico integrado a informática e bolsista de língua portuguesa e literatura.</p>
 
                 <a href="https://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K1267682J0&tokenCaptchar=0cAFcWeA4p89W3MyQAKDVqMGKYnf4yRcLi-4N6XQNhmuObl6LNFvRHlz0L7dgP6nQzSrGgPk761crsOqWpxLHlb0-9MYPbUxJ9R1hUswhbXBnGvgT6aLdCdUcBB8Vg1vdCdtWH7KJymE1M373cPNfekK_SfCBj2RwR_mf9NRHFnp7hb1vgnNStOwgNDztKo8OrHsw3k32PSoefhbeGqPN5c1pw3CqJ6ZD-EqRSEkty8uq9XkbG3hYbkk4PiOjeCfIlNy5SBkWPlpGV4-FhODFD58QvqUREZ6H8wNeN9vF5Ce5x4EEPgF4lGNa5dFmJk51xWo6fmYmY55RZ0H8EtcnkR6pCTyc5lm-jPZdisSKEt-Fd3CAx1HnxgSXuuegSms3NLLF4yVEOMri92FE4ygafd0p1FyjfIRN_uHTs2Xulk8eK-oHTwS8PEIS-DuT916tlItleRrk8KhsUzkMbmfuUmtTzmBYWHl43RzejHEmXiLvgzBgdoJgWerqM59Hq3L-YR0q3YzFHwDHmm4D_KKmw2AaEsf1Kiyj9Wl2aNxDgzPgVJhULP53oPDNWlv7hPUI-SoQVeZiWJ4qnpIVsDOT0soZ5CIP9nkzsXpSAPX3zn5-eOQj8Vqq1pjmJfDYqxJPo0T3iE3X6OaIxH7m8jKG6zEZ8rrDwZt8BsQ6y-6h1ObvxuUMgiRWa7wjxNtr75nd6A-njkKjDp69E-5SBiTRPaq9z-dKkKWLUXVyjcebtM7Ymtklps1a1WAPUAxAdbVADBIHoWkAwqx2ya61pG8REWWRuYWHP0pHOmTjLsNzT11YvLIrPtQeCH8QzMutS6-ixYwcRiNUUTjaeVETXsCZU9Jp0InwKQAeSwmIPEYZzLrQJX1MAkcKAEW_xsgaQ3eOaqgQjYIrEh4n4rNeBkLNYIUPRSt7gpqbxjLFF0ub8Psekg2ZY8bPhg_NUtPdxTHmNWsiGgRPb-O86OY33t8oTOrH644bxOLx7x5P7ENZ2wvKkq29vey6lTqF7Mio6RATm-1RsebQjEZopP55YSQifpjI31BN9SiOLhexZj_sV9aOhoWc8RsEZWJY30i4LHAnd95ZMpTuGcfDAU-1ahdGUICH_Jlh0oPq1Vkqc0E4BhCuPonf2fCL3lY1xPS9neIVQHS-35uz7w_DiWw7CM4t2_SRi3ANZFbEg0vZYTP5V9ICGM0fr5VHv8kbw8hmRhVJW3bYkF8LIsUwqftYJSujNgDt5lMQUdWROMQKYwu1UXP3-IlEoptuOUy_Mdv2EpZoJj7htiHzflnOQt6TXG-7hQirPqDz-J38hHV6eUCNcbzsxbSzI32PK9G3crYwq3YpqvO-oxZJIl3JT_ji-WDaq1HvuO3ZT-fCdVJqr_dJp2XyBGB742D_OJHHJFCZOztToCAHblqFJmqT4p-l7rshL_IIsafRL0lDtCV5UAb-RArDkEc4kcATJuVheUQATXFXmb24BFW0C9bk6lpEkdhaT1bJs0Fji4yQd-PjB-dA5Gn51y9P3446aTcXSqzt5oi_rqLcjjKh8BWi1OeOs9V54ae9fgd3JY9Wg9TRRnxA3y61TT3d6iWx_xLpv3kjCMs-3MG-IHgBu8IFw5gzhu_PojfAfJdmAwaqQPdfEwpphsRaFEqG4s4L8LZIFQa1psnkyAIoVkKUM9zGXg5uCldOHuT8ooiJ-tfmpGkX9cpvi0tscvst0xmZ07FA1lfm51ofewv0LVzCv94qWpx7Cj98EB0Kjyy229411iVL6FtvQUfpiFqG_BS0UjJJFUFKE2ewFOVNN44wkr3o5l-Vw94WlwC4LOIzqGZ0rpXelamSdxPyOCB0Oi0d4m9wIJs39zkDlJ5KF6qXhVWduKriK72bivfWkpIIGsSaNI9NRJPZJPDzvb-23VLTBhyiqEhFFADSmQMjnjVnaIo5nyDkOLHXobCLvwggeD8R5TIxgbwqs4kfEPdoL146ZHQAfivhtF3IQKIqOOT71V4SSISeJ04EyTevdnadaeqwIBiPFtG5LifYaPDKLqFDWF448VlmkMm-euhm88Smq3avTVzlUXDOf7Z16hmjIt_uSx9qZWnWXXr8xwptCxAgGRA5DY0B0rPVFSNRoBbfNcrDeJ7eyb4LkUrRuXDUNqHXzS3l38Vu2RDXWSvggfqszzH8">CURICULO LATTES</a>
                 </div>
@@ -843,4 +871,19 @@
             setupDropdown('.menu-curtas', '.droop');
         });
     </script>
+
+<script>
+    function FiltarCidade(cidadeFiltro) {
+        const todosOsCards = document.querySelectorAll('.card-lenda');
+
+        todosOsCards.forEach((card) => {
+            card.classList.remove('apresentar');
+
+            if (cidadeFiltro === 'Todos' || card.id === cidadeFiltro) {
+                card.classList.add('apresentar');
+            }
+        });
+    }
+</script>
+
 </body>
