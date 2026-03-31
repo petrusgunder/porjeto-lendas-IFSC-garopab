@@ -363,113 +363,78 @@
     font-family: Arial, sans-serif;
 }
 
-/* --- MEDIA QUERIES --- */
-@media screen and (max-width: 1000px) {
-    /* Reduz a largura do droop para 2 colunas em telas menores */
-    .menu-das-lendas .droop, .menu-curtas .droop {
-        width: 600px; 
-    }
-    
-    .card-lenda {
-        /* Define a largura para 2 itens: (100% / 2) - espaçamento */
-        flex: 0 0 calc(50% - 7.5px); 
-        max-width: calc(50% - 7.5px);
-    }
-    
-    .o-projeto {
-        display: flex;
-        flex-direction: column;
+@media screen and (max-width: 720px) {
+    header .parte-de-cima-menu img{
+        padding: 10px;
+        height: 60px;
+        width: auto;
     }
 
-    .o-projeto .textos {
+    .parte-de-baixo-menu .interface{
+        width: 100%;
+    }
+    
+    .parte-de-baixo-menu .interface a{
+        font-size: 10px;
+        padding: 10px 2px;
+    }
+
+    #inicio{
+        padding-left: 10px;
+    }
+
+    header .menu-das-lendas .droop{
+        width: 100vw;
+        left: 0;
+        position: fixed;
+        top: auto;
+        border-radius: 0;
+    }
+
+    header .menu-das-lendas .droop .sub-menu button{
+        font-size: 10px;
+        padding-left: 5px;
+    }
+
+    header .menu-das-lendas .droop .card-lenda{
+        flex: 0 0 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+    }
+
+    header .menu-curtas .droop{
+        width: 100vw;
+        left: 0;
+        position: fixed;
+        top: auto;
+        border-radius: 0;
+    }
+
+    header .menu-curtas .droop .sub-menu button{
+        font-size: 10px;
+        padding-left: 5px;
+    }
+
+    header .menu-curtas .droop .card-lenda{
+        flex: 0 0 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+    }
+
+    body .o-projeto{
+        flex-direction: column !important;
+    }
+
+    body .o-projeto h1{
+        font-size: 30px;
+    }
+
+    body .o-projeto p{
         font-size: 20px;
     }
 
-    .o-projeto img {
-        width: 700px;
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 720px) {
-    .o-projeto img {
+    body .imagems img{
         width: 400px;
-        height: auto;
-    }
-
-    .equipe ul li {
-        font-size: 15px;
-    }
-
-    .interface ul li a {
-        font-weight: 400;
-    }
-
-    /* Em mobile, volta para 1 coluna e largura menor do droop */
-    .menu-das-lendas .droop, .menu-curtas .droop {
-        width: 250px; 
-    }
-    
-    .card-lenda {
-        /* Define a largura para 1 item por linha */
-        flex: 0 0 100%; 
-        max-width: 100%;
-    }
-
-    .card-lenda .texto-sobreposto button {
-        padding: 3px 7px;
-        font-size: 12px;
-    }
-
-    .interface .opcoes {
-        font-size: 12px;
-    }
-
-    .lendas-hrf1 {
-        padding: 10px 0;
-        gap: 10px;
-    }
-
-    .o-projeto .imagems img{
-        margin-left: 100px;
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
-
-    .menu-curtas .droop .card-lenda{
-        position: relative;
-        display: inline-block;
-        flex: 0 0 calc(50% - 10px); 
-        max-width: calc(50% - 10px); /* Garantia de largura máxima */
-        box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
-        padding: 30px;
-    }
-
-    .menu-curtas .droop img{
-        width: 200px;
-        height: auto;
-        padding: 10px;
-    }
-
-    .menu-curtas .droop .texto-sobreposto{
-        padding: 15px;
-        width: 200px;
-        margin-left: 20px;
-    }
-    
-    
-
-    .menu-curtas .droop{
-        position: fixed; /* Fixa a div em relação à janela de visualização (viewport) */
-        top: 240px;          /* Alinha ao topo */
-        left: 0;         /* Alinha à esquerda */
-        width: 100%;     /* Opcional: ocupa toda a largura */
-        background-color: rgba(0, 0, 0, 0.671);
-        z-index: 100;
-    }
-
-    .nossos-curtas .card-lenda{
-        flex: 0 0 calc(50% - 10px); 
-        max-width: calc(50% - 10px);
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 10px;
     }
 }

@@ -387,100 +387,83 @@
     font-family: Arial, sans-serif;
 }
 
-/* --- MEDIA QUERIES --- */
-@media screen and (max-width: 1000px) {
-    /* Reduz a largura do droop para 2 colunas em telas menores */
-    .menu-das-lendas .droop, .menu-curtas .droop {
-        width: 600px; 
-    }
-    
-    .card-lenda {
-        /* Define a largura para 2 itens: (100% / 2) - espaçamento */
-        flex: 0 0 calc(50% - 7.5px); 
-        max-width: calc(50% - 7.5px);
-    }
-
-    .texto{
-        flex-direction: column;
-    }
-}
-
 @media screen and (max-width: 720px) {
 
-    
-
-    .texto p{
-        padding: 20px;
+    header .parte-de-cima-menu img{
+        padding: 10px;
+        height: 60px;
+        width: auto;
     }
 
-    .texto img{
-        height: auto;
-        width: 500px;
-    }
-
-    .interface ul li a {
-        font-weight: 400;
-    }
-
-    /* Em mobile, volta para 1 coluna e largura menor do droop */
-    .menu-das-lendas .droop, .menu-curtas .droop {
-        width: 250px; 
+    .parte-de-baixo-menu .interface{
+        width: 100%;
     }
     
-    .card-lenda {
-        /* Define a largura para 1 item por linha */
-        flex: 0 0 100%; 
-        max-width: 100%;
+    .parte-de-baixo-menu .interface a{
+        font-size: 10px;
+        padding: 10px 2px;
     }
 
-    .card-lenda .texto-sobreposto button {
-        padding: 3px 7px;
-        font-size: 12px;
+    #inicio{
+        padding-left: 10px;
     }
 
-    .interface .opcoes {
-        font-size: 12px;
+    header .menu-das-lendas .droop{
+        width: 100vw;
+        left: 0;
+        position: fixed;
+        top: auto;
+        border-radius: 0;
     }
 
-    .lendas-hrf1 {
-        padding: 10px 0;
-        gap: 10px;
+    header .menu-das-lendas .droop .sub-menu button{
+        font-size: 10px;
+        padding-left: 5px;
     }
 
-    .menu-curtas .droop .card-lenda{
-        position: relative;
-        display: inline-block;
-        flex: 0 0 calc(50% - 10px); 
-        max-width: calc(50% - 10px); /* Garantia de largura máxima */
-        box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
-        padding: 30px;
+    header .menu-das-lendas .droop .card-lenda{
+        flex: 0 0 calc(50% - 10px);
+        max-width: calc(50% - 10px);
     }
 
-    .menu-curtas .droop img{
-        width: 200px;
-        height: auto;
+    header .menu-curtas .droop{
+        width: 100vw;
+        left: 0;
+        position: fixed;
+        top: auto;
+        border-radius: 0;
+    }
+
+    header .menu-curtas .droop .sub-menu button{
+        font-size: 10px;
+        padding-left: 5px;
+    }
+
+    header .menu-curtas .droop .card-lenda{
+        flex: 0 0 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+    }
+
+    body .texto{
+        flex-direction: column;
+    }
+
+    body .texto img{
+        width: 400px;
+        padding: 10px 10px;
+    }
+
+    body .texto h1{
         padding: 10px;
     }
 
-    .menu-curtas .droop .texto-sobreposto{
+    body .texto p{
+        font-size: 20px;
         padding: 15px;
-        width: 200px;
-        margin-left: 20px;
-    }
-    
-    
-
-    .menu-curtas .droop{
-        position: fixed; /* Fixa a div em relação à janela de visualização (viewport) */
-        top: 240px;          /* Alinha ao topo */
-        left: 0;         /* Alinha à esquerda */
-        width: 100%;     /* Opcional: ocupa toda a largura */
-        background-color: rgba(0, 0, 0, 0.671);
-        z-index: 100;
     }
 
-    .nossos-curtas .card-lenda{
-        flex: 0 0 calc(50% - 10px); 
-        max-width: calc(50% - 10px);
+    body .texto .referencia p{
+        font-size: 15px !important;
+        padding: 10px;
     }
 }
