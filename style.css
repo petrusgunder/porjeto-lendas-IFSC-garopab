@@ -431,10 +431,15 @@
         font-size: 20px;
     }
 
-    body .imagems img{
-        width: 400px;
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-left: 10px;
+    body .imagems{
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
+
+    body .o-projeto .imagems img {
+        width: 100%; 
+        height: auto;
+        margin-left: 100px;
+    }   
 }
